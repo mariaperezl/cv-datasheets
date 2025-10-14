@@ -8,6 +8,11 @@ speech (1 hours validated) from 13 speakers.
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Galician is the language of Galicia (Spain). It has been an official language, along with Spanish, since 1981 and, in addition to being a language of use in this territory, it is spoken in other bordering areas, although without official status (Asturias, León, Zamora). It belongs to the Indo-European language family, specifically the Romance languages, along with Spanish, Portuguese and Catalan. It also has a close relationship with Portuguese since they share historical origins, but today they constitute two separate languages with each one having its own respective standard developed by each institution.
+
+The state of vitality of the language is “Institutional” according to Ethnologue https://www.ethnologue.com/language/glg/, that is, the language is developed, has a standard variety, is taught at all stages of the Galician educational system and has institutional support. However, from the point of view of sociolinguistics, both the autonomous community of Galicia and the other territories that speak the Galician language present typical features of a situation of linguistic conflict (diglossia), resulting from a historical process of replacement of Galician (a minority language) by Spanish. The Galician case responds to the characteristics of a framework of languages in contact between which conflicting relations occur. 
+
+The Galician language is a rich and diverse reality, and its linguistic variation is manifested in spontaneous speech. Thus, aspects such as age, geography, sociocultural level or communicative context also influence linguistic uses. At the dialectal level, Galician presents differentiating features between the eastern and western areas, as well as between the north and the south: phonetic changes (such as the use of gheada or seseo), lexical variations (different words to designate the same object) or even small morpho-syntactic differences. 
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -53,12 +58,22 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The writing system of Galician is based on the Latin alphabet, like other Romance languages (Spanish, Portuguese or French). Its orthography is regulated by the corresponding regional institutions that establish the official rules of use (NOMIG).
+
+Galician uses the 23 letters of the basic Latin alphabet: 5 vowels and 18 consonants.
+
+In addition, the letters Ç, J, K, W and Y are supported in foreign words, proper names, abbreviations and international acronyms.
+
+The Galician alphabet also has numerous digraphs: combinations of two letters that represent a single sound: "ch", "gu", "ll", "nh", "qu", "rr".
+
+In terms of phonetics and phonology, some particularities of the Galician language should be highlighted. The vowel system has seven oral vowels: /a/, /e/, /ɛ/, /i/, /o/, /ɔ/ and /u/. At the consonantal level, the presence of the phoneme /ʃ/, represented by the letter “x” can be highlighted; the fricative sound /ʒ/; the distinction between /s/ and /θ/ which depends on the dialect areas; the gheada, etc.
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
 
+a, á, b, c, d, e, é, f, g, h, i, í, l, m, n, o, ó, p, q, r, s, t, u, ú, v, x, z
 #### Extralinguistic tags
 
 ### Samples
