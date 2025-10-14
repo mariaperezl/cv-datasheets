@@ -1,13 +1,16 @@
 # *Galego* &mdash; Galician (`gl`)
 > This datasheet has been generated automatically, we would love to include more information, if you would like to help out, [get in touch](https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md)!
 
-This datasheet is for version 1.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
+ This datasheet is for version 23.0 of the the Mozilla Common Voice *Spontaneous Speech* dataset 
 for Galician (`gl`). The dataset contains 211 clips representing 2 hours of recorded
 speech (1 hours validated) from 13 speakers.
 
 ## Language
 <!-- {{LANGUAGE_DESCRIPTION}} -->
 <!-- Provide a brief (1-2 paragraph) description of your language -->
+Galician is the language of Galicia (Spain). It has been an official language, along with Spanish, since 1981 and, in addition to being a language of use in this territory, it is spoken in other bordering areas, although without official status (Asturias, León, Zamora). It belongs to the Indo-European language family, specifically the Romance languages, along with Spanish, Portuguese and Catalan. It also has a close relationship with Portuguese since they share historical origins, but today they constitute two separate languages with each one having its own respective standard developed by each institution.
+
+The state of vitality of the language is “Institutional” according to Ethnologue https://www.ethnologue.com/language/glg/, that is, the language is developed, has a standard variety, is taught at all stages of the Galician educational system and has institutional support. However, from the point of view of sociolinguistics, both the autonomous community of Galicia and the other territories that speak the Galician language present typical features of a situation of linguistic conflict (diglossia), resulting from a historical process of replacement of Galician (a minority language) by Spanish. The Galician case responds to the characteristics of a framework of languages in contact between which conflicting relations occur. 
 
 ## Demographic information
 The dataset includes the following distribution of age and gender.
@@ -53,12 +56,18 @@ Self-declared age information, frequency refers to the number of clips annotated
 <!-- {{WRITING_SYSTEM_DESCRIPTION}} -->
 <!-- @ OPTIONAL @ -->
 <!-- A description of the writing system (or writing systems) used in the text corpus -->
+The writing system of Galician is based on the Latin alphabet, like other Romance languages (Spanish, Portuguese or French). Its orthography is regulated by the corresponding regional institutions that establish the official rules of use (NOMIG).
+Galician uses the 23 letters of the basic Latin alphabet: 5 vowels and 18 consonants.
+
+The Galician alphabet also has numerous digraphs: combinations of two letters that represent a single sound: "ch", "gu", "ll", "nh", "qu", "rr".
+
+In terms of phonetics and phonology, some particularities of the Galician language should be highlighted. The vowel system has seven oral vowels: /a/, /e/, /ɛ/, /i/, /o/, /ɔ/ and /u/. At the consonantal level, the presence of the phoneme /ʃ/, represented by the letter “x” can be highlighted; the fricative sound /ʒ/; the distinction between /s/ and /θ/ which depends on the dialect areas; the gheada, etc.
 
 #### Symbol table
 <!-- {{ALPHABET_TABLE}} -->
 <!-- @ OPTIONAL @ -->
 <!-- If the writing system is alphabetic, you can include the valid alphabet here -->
-
+a, á, b, c, d, e, é, f, g, h, i, í, l, m, n, o, ó, p, q, r, s, t, u, ú, v, x, z
 #### Extralinguistic tags
 
 ### Samples
@@ -108,7 +117,7 @@ Each row of a `tsv` file represents a single audio clip, and contains the follow
 
 #### 
 [^1]: For a full list of age, gender, and accent options, see the
-[demographics
+[demograpics
 spec](https://github.com/common-voice/common-voice/blob/main/web/src/stores/demographics.ts). These
 will only be reported if the speaker opted in to provide that
 information.
